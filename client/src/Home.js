@@ -3,7 +3,7 @@ import './App.css';
 
 function Home () {
   return (
-    <div>
+    <div className="home">
         <h1>Welcome to Postmaker</h1>
     </div>
   );

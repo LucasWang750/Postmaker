@@ -1,5 +1,25 @@
 .App {
+  height: 100vh;
   text-align: center;
+  
+}
+
+.App::after {    
+  content: "";
+  background-image: url(https://usersnap.com/blog/wp-content/uploads/2017/04/web-design-background.png);
+  background-size: cover;
+  position: absolute;
+  top: 10vh;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.home h1
+{
+  z-index: 100; 
 }
 
 nav{
