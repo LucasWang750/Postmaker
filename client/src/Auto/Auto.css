@@ -1,7 +1,7 @@
-/*.container {
+.container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   justify-content: space-around;
 }
 
@@ -28,13 +28,6 @@
   right: 15px
 }
 
-.App
-{
-  display: flex;
-  justify-content: center;
-  flex-direction:  row;
-}
-
 .middle
 {
   margin-left: 40px;
@@ -50,7 +43,7 @@
   justify-content: center;
   padding-left: 10vw;
   padding-right: 10vw;
-}*/
+}
 
 
 .button svg{

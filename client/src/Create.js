@@ -6,12 +6,12 @@ function Create () {
   return (
     <div>
         <h1>Create Your Post</h1>
-        <ul className="nav-links">
+        <ul className="nav-links nav">
           <Link to="/auto">
-            <li>Auto</li>
+            <button type="button">Auto</button>
           </Link>
           <Link to="/manual">
-            <li>Manual</li>
+            <button type="button">Manual</button>
           </Link>
         </ul>
     </div>
