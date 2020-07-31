@@ -4,7 +4,7 @@
   
 }
 
-.App::after {    
+.home::after {    
   content: "";
   background-image: url(https://usersnap.com/blog/wp-content/uploads/2017/04/web-design-background.png);
   background-size: cover;
